@@ -1,0 +1,10 @@
+Add alert details and sensor data to the security dashboard
+
+Introduces new hooks for fetching sensor and system log data, updates the Alerts page to display more detailed information including risk scores and confidence levels, and enhances the main Dashboard with visualizations for sensor status and system logs. Also includes backend changes for managing patrol routes.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: 0192203a-a6c5-4763-8da8-46d052287cda
+Replit-Commit-Checkpoint-Type: full_checkpoint
+Replit-Commit-Event-Id: 3d8693a7-5bb3-46a1-86ea-f94aa83f864f
+Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/cd4dd9d8-19b2-4c46-904c-ce3c9306bcc8/0192203a-a6c5-4763-8da8-46d052287cda/UHrAzoi
+Replit-Helium-Checkpoint-Created: true
