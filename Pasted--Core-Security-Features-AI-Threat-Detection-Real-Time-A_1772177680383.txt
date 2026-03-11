@@ -1,0 +1,219 @@
+🔐 Core Security Features
+
+AI Threat Detection
+
+Real-Time Alert System
+
+Multi-Sensor Data Integration
+
+Risk Level Prediction (Low / Medium / High)
+
+Motion Detection
+
+Intrusion Detection
+
+Object Detection (Person / Vehicle)
+
+Face Recognition (Authorized vs Unknown)
+
+Suspicious Activity Detection
+
+Automatic Alert Generation
+
+📊 Smart Dashboard Features
+
+Live Threat Counter
+
+Daily / Weekly Threat Graph
+
+Heatmap of Risk Zones
+
+Alert History Table
+
+Filter Alerts by Date
+
+Filter by Threat Level
+
+Download Alert Report (PDF/CSV)
+
+Real-Time System Status Indicator
+
+Sensor Health Monitoring
+
+Active Cameras List
+
+🧠 Advanced AI Features
+
+Predict Future Risk Areas
+
+Pattern Analysis from Historical Data
+
+Adaptive Learning (improves over time)
+
+Human Feedback Training System
+
+Explainable AI (Why alert was generated)
+
+Confidence Score for Alerts
+
+False Alarm Detection System
+
+Weather Impact Analysis
+
+Night Vision AI Detection Mode
+
+Drone Surveillance Integration
+
+🎥 Monitoring Features
+
+Live Webcam Feed
+
+Multiple Camera Support
+
+Zoom In / Zoom Out
+
+Screenshot Capture
+
+Record Video on Alert
+
+Auto Save Alert Clip
+
+Camera Switching Option
+
+GPS Location of Camera
+
+Border Map View
+
+Satellite Map Integration
+
+🗺 Map & Location Features
+
+Real-Time Border Map
+
+Mark Suspicious Locations
+
+Danger Zone Highlight
+
+Geo-Fencing
+
+Patrol Route Tracking
+
+Live Unit Tracking
+
+Risk Heatmap Visualization
+
+Incident Pin Markers
+
+Border Zone Classification
+
+Weather Overlay on Map
+
+👮 Admin & Control Features
+
+Role-Based Login (Admin / Officer)
+
+Secure Authentication (JWT)
+
+Activity Logs
+
+Add / Remove Sensors
+
+Manage Users
+
+Reset System
+
+Manual Alert Trigger
+
+Emergency Broadcast Message
+
+Alert Escalation System
+
+Lockdown Mode
+
+📱 Communication Features
+
+SMS Alert Notification
+
+Email Alert System
+
+Push Notifications
+
+Emergency Call Trigger
+
+Two-Way Chat System
+
+Secure Messaging Between Officers
+
+Incident Report Submission
+
+File Upload Evidence
+
+Photo Evidence Storage
+
+Audio Recording Upload
+
+📈 Analytics & Reports
+
+Threat Statistics
+
+Monthly Security Report
+
+Threat Category Pie Chart
+
+Sensor Performance Report
+
+False Alarm Rate Report
+
+Export Reports as PDF
+
+Download Logs
+
+AI Accuracy Rate
+
+Risk Trend Prediction Graph
+
+Performance Dashboard
+
+🔒 Advanced Security Enhancements
+
+Two-Factor Authentication
+
+OTP Login
+
+IP Tracking
+
+Login Attempt Limiting
+
+Encrypted Database
+
+Secure API Endpoints
+
+HTTPS Configuration
+
+Activity Monitoring
+
+Audit Logs
+
+Backup & Restore System
+
+🚀 Very Advanced (Make Your Project Unique)
+
+Drone Camera Integration
+
+Thermal Detection Mode
+
+Gunshot Detection Simulation
+
+Night Mode Auto Activation
+
+Voice Command Control
+
+AI Chatbot for Security Assistance
+
+Border Breach Prediction Model
+
+Suspicious Pattern Clustering
+
+Real-Time Data Streaming (WebSockets)
+
+AI Decision Explanation Panel

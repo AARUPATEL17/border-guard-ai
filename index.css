@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 4%;
+    --foreground: 210 40% 98%;
+
+    --card: 240 10% 6%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 240 10% 4%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 142 71% 45%; /* Tactical Green */
+    --primary-foreground: 144 100% 11%;
+
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 240 5% 12%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 240 4% 16%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%; /* Tactical Red */
+    --destructive-foreground: 210 40% 98%;
+
+    --warning: 38 92% 50%; /* Tactical Orange */
+    --warning-foreground: 48 96% 12%;
+
+    --border: 240 6% 15%;
+    --input: 240 6% 15%;
+    --ring: 142 71% 45%;
+
+    --radius: 0.25rem;
+
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/30;
+    font-family: var(--font-display);
+    /* Subtle grid pattern for tactical feel */
+    background-image: linear-gradient(to right, rgba(255,255,255,0.02) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-tight;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+@layer utilities {
+  .glow-primary {
+    box-shadow: 0 0 15px -3px hsl(var(--primary) / 0.4), 0 0 6px -2px hsl(var(--primary) / 0.2);
+  }
+  .glow-destructive {
+    box-shadow: 0 0 15px -3px hsl(var(--destructive) / 0.4), 0 0 6px -2px hsl(var(--destructive) / 0.2);
+  }
+  .glow-warning {
+    box-shadow: 0 0 15px -3px hsl(var(--warning) / 0.4), 0 0 6px -2px hsl(var(--warning) / 0.2);
+  }
+  
+  .crt-scanlines {
+    position: relative;
+  }
+  .crt-scanlines::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 10;
+    background-size: 100% 4px, 6px 100%;
+    pointer-events: none;
+  }
+}
+
+/* Custom Scrollbar for tactical theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.5);
+}

@@ -1,0 +1,164 @@
+Create a fully functional, production-ready AI Border Surveillance System website with backend and real security features. The system must include real authentication, database storage, live monitoring simulation, and secure backend APIs.
+
+Core Requirements
+1. Frontend
+
+Use:
+
+HTML, CSS, JavaScript
+
+Modern dark security dashboard UI
+
+Responsive design (desktop + mobile)
+
+Pages:
+
+Login Page (secure authentication)
+
+Dashboard Page (real-time alerts)
+
+Monitoring Page (live camera feed using webcam)
+
+Alerts Page (alert history from database)
+
+Contact Page
+
+Dashboard Features:
+
+Real-time threat alerts (Low, Medium, High)
+
+Threat level indicator with colors
+
+Alert cards with timestamp and sensor type
+
+System status indicator (Active / Alert / Monitoring)
+
+Sidebar navigation
+
+Monitoring Features:
+
+Live webcam integration
+
+Motion detection simulation using JavaScript
+
+Alert trigger button (simulate real threat)
+
+2. Backend (REQUIRED)
+
+Use:
+
+Python Flask backend
+OR
+
+Node.js Express backend
+
+Backend Features:
+
+Secure Login Authentication (JWT or Session)
+
+REST API endpoints
+
+Real-time alert storage
+
+Database integration
+
+Secure password hashing
+
+Example APIs:
+
+/login
+
+/register
+
+/get_alerts
+
+/add_alert
+
+/system_status
+
+3. Database
+
+Use one:
+
+Firebase Firestore
+OR
+
+MongoDB
+OR
+
+SQLite
+
+Store:
+
+Users
+
+Alerts
+
+Threat levels
+
+Timestamp
+
+Sensor type
+
+4. Real Security Features
+
+Include:
+
+Password hashing (bcrypt)
+
+JWT authentication
+
+Protected dashboard routes
+
+Session management
+
+Input validation
+
+Secure API endpoints
+
+5. AI Simulation Features
+
+Include simulated AI detection:
+
+Motion detection trigger
+
+Threat level prediction logic
+
+Alert generation system
+
+Real-time dashboard updates
+
+6. Project Structure
+
+Generate full working folder:
+
+border-surveillance/
+│
+├── frontend/
+│   ├── index.html
+│   ├── dashboard.html
+│   ├── monitoring.html
+│   ├── contact.html
+│   ├── style.css
+│   └── script.js
+│
+├── backend/
+│   ├── app.py
+│   ├── database.db
+│   └── requirements.txt
+│
+└── README.md
+
+7. Extra Requirements
+
+Fully working system
+
+Clean professional code
+
+Ready to run locally
+
+Real backend and database connection
+
+Professional security dashboard design
+
+Do NOT include long project description text on website.
